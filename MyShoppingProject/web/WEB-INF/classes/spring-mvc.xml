@@ -45,18 +45,18 @@
 		<!-- SQLSessionFactroy的配置 -->
 		<bean id="sessionFactroy" class="org.mybatis.spring.SqlSessionFactoryBean">
 			<property name="dataSource" ref="ds"></property>
-			<property name="mapperLocations" value="classpath:com/chenyun/mapper/*.xml"></property>
+			<property name="mapperLocations" value="classpath:com/starlight/mapper/*.xml"></property>
 		</bean>
 		<!-- MapperScanner自动扫描的配置 -->
 		<bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-			<property name="basePackage" value="com.chenyun.dao"></property>
+			<property name="basePackage" value="com.starlight.dao"></property>
 		</bean>
-		<context:component-scan base-package="com.chenyun"></context:component-scan>
+		<context:component-scan base-package="com.starlight"></context:component-scan>
 		<!-- 开启MVC扫描注解 -->
 		<mvc:annotation-driven></mvc:annotation-driven>
 		<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 			<!-- 后缀匹配 -->
-			<property name="suffix" value=".jsp"></property>
+			<property name="suffix" value=".html"></property>
 		</bean>
 </beans>
 

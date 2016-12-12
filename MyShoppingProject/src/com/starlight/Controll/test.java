@@ -1,9 +1,9 @@
 package com.starlight.Controll;
 
-import com.chenyun.dao.AdminfoEtDao;
-import com.chenyun.dao.TestDao;
-import com.chenyun.entity.AcessTestEt;
-import com.chenyun.entity.AdminfoEt;
+import com.starlight.dao.AdminfoEtDao;
+import com.starlight.dao.TestDao;
+import com.starlight.entity.AcessTestEt;
+import com.starlight.entity.AdminfoEt;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;

@@ -1,6 +1,6 @@
 package com.starlight.dao;
 
-import com.chenyun.entity.AcessTestEt;
+import com.starlight.entity.AcessTestEt;
 
 import java.util.ArrayList;
 

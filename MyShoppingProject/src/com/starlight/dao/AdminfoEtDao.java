@@ -1,6 +1,6 @@
 package com.starlight.dao;
 
-import com.chenyun.entity.AdminfoEt;
+import com.starlight.entity.AdminfoEt;
 
 import java.util.ArrayList;
 
