@@ -31,7 +31,7 @@ public class test {
             System.out.println(lists.getAdm_id()+","+lists.getAdminfo_idnum()+","+
                     lists.getAdminfo_address()+","+lists.getAdminfo_phome()+","+lists.getAdminfo_sex());
         }
-        System.out.println("aaa");
+        System.out.println("aaaaaaaaa");
         System.out.println("aaaaaaaaaa");
         return "index";
     }
