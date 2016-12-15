@@ -35,6 +35,7 @@ public class test {
         }
         System.out.println("aaa");
         System.out.println("aaa");
-        return "index";
+System.out.println("³Ô·¹a");        
+return "index";
     }
 }
