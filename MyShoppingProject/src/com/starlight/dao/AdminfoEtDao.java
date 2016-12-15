@@ -9,5 +9,5 @@ import java.util.ArrayList;
  */
 public interface AdminfoEtDao {
      ArrayList<AdminfoEt>  findAll();
-	void bb();
+	void aa();
 }
